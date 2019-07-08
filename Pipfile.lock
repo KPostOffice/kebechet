@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "eb6023826197e57022c126d62eb8eb1cc066241b66cefb528a59e8995101fc11"
+            "sha256": "3d90d02d06ae331f80c182582dcdb9d7233de0dc29f25c81d2d242dfd74726f2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -45,13 +45,6 @@
             "index": "pypi",
             "version": "==7.0"
         },
-        "contoml": {
-            "hashes": [
-                "sha256:2353275caef3726131c4192379252cc48eb4a15c06df3e1046f783de937eba94",
-                "sha256:f62960b57a9489187653787bd67756d15a79e4579c7d779d8b94f581dd260a7d"
-            ],
-            "version": "==0.32"
-        },
         "daiquiri": {
             "hashes": [
                 "sha256:8832f28e110165b905993b4bdab638a3c245f5671d5976f226f2628e7d2e7862",
@@ -66,13 +59,6 @@
             ],
             "index": "pypi",
             "version": "==0.1.1"
-        },
-        "distro": {
-            "hashes": [
-                "sha256:362dde65d846d23baee4b5c058c8586f219b5a54be1cf5fc6ff55c4578392f57",
-                "sha256:eedf82a470ebe7d010f1872c17237c79ab04097948800029994fa458e52fb4b4"
-            ],
-            "version": "==1.4.0"
         },
         "gitdb": {
             "hashes": [
@@ -98,20 +84,6 @@
             "git": "https://gitlab.com/gitmate/open-source/IGitt.git",
             "ref": "9f5faceb3b76ca44b2988f38371f4e3f4afd5672"
         },
-        "invectio": {
-            "hashes": [
-                "sha256:a21e591ebba63e27959ae6491b787e6567554db318e785f8ecd65c23465c323d"
-            ],
-            "version": "==0.0.3"
-        },
-        "iso8601": {
-            "hashes": [
-                "sha256:210e0134677cc0d02f6028087fee1df1e1d76d372ee1db0bf30bf66c5c1c89a3",
-                "sha256:49c4b20e1f38aa5cf109ddcd39647ac419f928512c869dc01d5c7098eddede82",
-                "sha256:bbbae5fb4a7abfe71d4688fd64bff70b91bbd74ef6a99d964bab18f7fdf286dd"
-            ],
-            "version": "==0.1.12"
-        },
         "pexpect": {
             "hashes": [
                 "sha256:2094eefdfcf37a1fdbfb9aa090862c1a4878e5c7e0e7e7088bdb511c558e5cd1",
@@ -134,13 +106,6 @@
                 "sha256:d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f"
             ],
             "version": "==0.6.0"
-        },
-        "python-dateutil": {
-            "hashes": [
-                "sha256:7e6584c74aeed623791615e26efd690f29817a27c73085b78e4bad02493df2fb",
-                "sha256:c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"
-            ],
-            "version": "==2.8.0"
         },
         "pytz": {
             "hashes": [
@@ -196,50 +161,15 @@
             ],
             "version": "==0.9.5"
         },
-        "six": {
-            "hashes": [
-                "sha256:3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c",
-                "sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
-            ],
-            "version": "==1.12.0"
-        },
         "smmap": {
             "hashes": [
                 "sha256:0e2b62b497bd5f0afebc002eda4d90df9d209c30ef257e8673c90a6b5c119d62"
             ],
             "version": "==0.9.0"
         },
-        "strict-rfc3339": {
-            "hashes": [
-                "sha256:5cad17bedfc3af57b399db0fed32771f18fc54bbd917e85546088607ac5e1277"
-            ],
-            "version": "==0.7"
-        },
-        "termcolor": {
-            "hashes": [
-                "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
-            ],
-            "version": "==1.1.0"
-        },
-        "texttable": {
-            "hashes": [
-                "sha256:eff3703781fbc7750125f50e10f001195174f13825a92a45e9403037d539b4f4"
-            ],
-            "version": "==1.6.2"
-        },
         "thamos": {
-            "hashes": [
-                "sha256:000d1c4a6d26ca951e8528168b060b0774e0378acb18a0bc210eb5f6eb24295b",
-                "sha256:b4113019fd2b6817d8282eb588934b7c0af7a4d387fa8347c1b299a46d805273"
-            ],
-            "index": "pypi",
-            "version": "==0.5.3"
-        },
-        "thoth-analyzer": {
-            "hashes": [
-                "sha256:4e0b94e3a2a4dd48b531100c7754a961aaaabcde44868f3cf722ffac6c53dd10"
-            ],
-            "version": "==0.1.2"
+            "git": "https://github.com/KPostOffice/thamos.git",
+            "ref": "7a629d412f14bd97bcf154a430a19fe3abf8e667"
         },
         "thoth-common": {
             "hashes": [
@@ -248,12 +178,6 @@
             ],
             "index": "pypi",
             "version": "==0.9.1"
-        },
-        "timestamp": {
-            "hashes": [
-                "sha256:b5c7a4539f0d8742b7d6c78febd241ab24903c73c38045690725220ca7eae4ac"
-            ],
-            "version": "==0.0.1"
         },
         "toml": {
             "hashes": [
@@ -289,13 +213,6 @@
                 "sha256:c88ae171a11b087ea2513f260cdac9232461d8e9369bcd1dc143fc399d220557"
             ],
             "version": "==0.5.3"
-        },
-        "yaspin": {
-            "hashes": [
-                "sha256:8e6d2e2b207ba18510f190e04a25273a32d1f192af9c9a77ebe46deaca799dfa",
-                "sha256:94b7602f0dc59d26a15e63cefff6aaf644c58dd77fc4e1ef675d3ba2c302ed06"
-            ],
-            "version": "==0.14.3"
         }
     },
     "develop": {
@@ -563,11 +480,11 @@
         },
         "pytest": {
             "hashes": [
-                "sha256:2878de8ae1c79a62c012da6186b88ff0562ea96ce29c4208d2a9b11d9f607df1",
-                "sha256:95b700cf21ed5b7e91bce7a6b5a573b2e3ef7b3643d00f681d8f9c4672f9fbdf"
+                "sha256:6ef6d06de77ce2961156013e9dff62f1b2688aa04d0dc244299fe7d67e09370d",
+                "sha256:a736fed91c12681a7b34617c8fcefe39ea04599ca72c608751c31d89579a3f77"
             ],
             "index": "pypi",
-            "version": "==5.0.0"
+            "version": "==5.0.1"
         },
         "pytest-cov": {
             "hashes": [

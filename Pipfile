@@ -14,7 +14,7 @@ pyyaml = "*"
 igitt = {git = "https://gitlab.com/gitmate/open-source/IGitt.git"}
 semver = "*"
 thoth-common = "*"
-thamos = "*"
+thamos = {git = "https://github.com/KPostOffice/thamos.git",ref = "code-error"}
 
 [dev-packages]
 pytest = "*"
