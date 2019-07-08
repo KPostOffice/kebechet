@@ -63,7 +63,7 @@ parameters:
   displayName: Thoth Kebechet git reference
   required: true
   name: GITHUB_REF
-  value: 'nowait'
+  value: 'demo-branch'
 
 - description: Tag of the output ImageStream the resulting container image should go to
   displayName: ImageStream Tag
