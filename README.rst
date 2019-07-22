@@ -33,7 +33,7 @@ Bot updates pull requests and issues and notifies about updates via comments (to
 
 This is especially helpful for example if you have failing updates of your dependency and you would like to keep the pull request opened and check for fix later. Setting 'silent-bot' label to the PR will suppress Kebechet to post updates and you will not retrieve spam messages anymore.
 
-Notes
+Notes 
 =====
 
 To issue an update to Git repository, Kebechet creates branches in the provided repository.
